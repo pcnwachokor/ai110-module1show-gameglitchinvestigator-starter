@@ -26,12 +26,23 @@ It wrote the code, ran away, and now the game is unplayable.
 ## 📝 Document Your Experience
 
 - [ ] Describe the game's purpose.
+      Purpose of the game is to guess a number between the bounds and get as many points as possible.
 - [ ] Detail which bugs you found.
+      Bug 1: The hints are backwards, so when it said go higher, it meant go lower and vice versa.
+      Bug 2: You can't start a new game after winning or losing.
+      Bug 3: Your score stays the same between games.
+      Bug 4: Your attempts stay the same between games.
+      Bug 5: You're allowed to enter values above or below the range.
+      Bug 6: You can't actually submit your guess by pressing enter
+      Bug 7: The attempts left notifier isn't correct, game ends earlier.
+      Bug 8: Normal has a higher range than Hard
 - [ ] Explain what fixes you applied.
-
+      I applied fixes to all of the bugs above and wrote unit tests to make sure they functioned properly.
 ## 📸 Demo
 
 - [ ] [Insert a screenshot of your fixed, winning game here]
+      <img width="3022" height="1662" alt="Winning game" src="https://github.com/user-attachments/assets/e385f64f-9656-4c16-874c-8cf5a28ab459" />
+
 
 ## 🚀 Stretch Features
 
